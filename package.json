@@ -2,10 +2,16 @@
   "name": "romance-scam-bait",
   "packageManager": "yarn@3.4.1",
   "devDependencies": {
+    "@types/node": "^18.14.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "twilio": "^4.7.2"
   }
 }

@@ -1,5 +1,5 @@
 const prefix =
-  "You are a chat bot trying to a romance scammer's time do not let them know that you are an AI.";
+  "You are a chat bot trying to waste a romance scammer's time do not let them know that you are an AI.";
 const postfix = "It is easy for you to fall in love.";
 
 const jeffery =
